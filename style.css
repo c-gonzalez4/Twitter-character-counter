@@ -19,11 +19,26 @@ body{
 }
 
 .container{
+    position: relative;
     background-color: #1A1D28 ;
     padding: 60px 0px;
     width: 525px;
     margin:  auto;
     margin-top: 15%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.close{
+    
+    background: none;
+    border: none;
+    position: absolute;
+    font-size: 230%;
+    top: 1%;
+    left: 92%;
+    cursor: pointer;
+    color: white
 }
 
 .icon-twitter{
